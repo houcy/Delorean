@@ -31,7 +31,11 @@ We have the typical interface (-i) and port (-p) flags, that help us to bind the
   -----------'  ""____""  `-------------------------------'  ""____"" 
 ``` 
 
-We can use Delorean in several modes, but we are going to focus in the most useful ones. There are some other attacks that weren't really interesting after developing them, but they are still in the code. Perhaps I will remove them in the future, sine they require scapy and some dependencies.
+We can use Delorean in several modes, but we are going to focus in the most useful ones. There are some other attacks that weren't really interesting after developing them, but they are still in the code. Perhaps I will remove them in the future, sine they require scapy and some dependencies. You can install dependencies using pip.
+```
+pip install -r requirements.txt
+```
+
 
 Since it's too soon yet to talk about how OS synchronize, we will test how Delorean works using the command line tool "ntpdate":
 
